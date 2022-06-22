@@ -1,0 +1,93 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.18a
+Copyright (C) 2016 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Micro BME, AUT, LIC=V85DY-IMRQF-NS3YQ-N5RAN-CFL8P-2AIZB
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.18a
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 1 (build 61)
+Assembler:       Armasm.exe V5.06 update 1 (build 61)
+Linker/Locator:  ArmLink.exe V5.06 update 1 (build 61)
+Library Manager: ArmAr.exe V5.06 update 1 (build 61)
+Hex Converter:   FromElf.exe V5.06 update 1 (build 61)
+CPU DLL:         SARMCM3.DLL V5.18a
+Dialog DLL:      DARMSTM.DLL V1.65.0.0
+Target DLL:      Segger\JL2CM3.dll V2.99.19.0
+Dialog DLL:      TARMSTM.DLL V1.64.0.0
+ 
+<h2>Project:</h2>
+E:\micro project\final project\[26] Touch Screen_new\USER\TOUCH.uvprojx
+Project File Date:  05/18/2017
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 1 (build 61)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'Target 1'
+compiling main.c...
+loginpic.h(2603): warning:  #1-D: last line of file ends without a newline
+       
+music.h(40618): warning:  #1-D: last line of file ends without a newline
+main.c(292): warning:  #1-D: last line of file ends without a newline
+  ////////////////////////
+main.c: 3 warnings, 0 errors
+compiling stm32f10x_it.c...
+stm32f10x_it.c(111): warning:  #1-D: last line of file ends without a newline
+  //}
+stm32f10x_it.c: 1 warning, 0 errors
+compiling system_stm32f10x.c...
+compiling led.c...
+compiling key.c...
+compiling lcd.c...
+compiling myiic.c...
+compiling 24cxx.c...
+compiling touch.c...
+..\HARDWARE\TOUCH\touch.c(195): warning:  #223-D: function "printf" declared implicitly
+        printf("\nSave Data Xf=%i Yf=%i X=%i Y=%i", temp, temp2, tp_dev.xoff, tp_dev.yoff);
+..\HARDWARE\TOUCH\touch.c(222): warning:  #223-D: function "printf" declared implicitly
+                printf("\nGet Data Xf=%i Yf=%i X=%i Y=%i", tempfac, tempfac2, tp_dev.xoff, tp_dev.yoff);                
+..\HARDWARE\TOUCH\touch.c(225): warning:  #223-D: function "printf" declared implicitly
+        printf("\nNo EEPROM config for touch calibrate\n");
+..\HARDWARE\TOUCH\touch.c: 3 warnings, 0 errors
+compiling delay.c...
+compiling sys.c...
+compiling usart.c...
+compiling core_cm3.c...
+assembling startup_stm32f10x_hd.s...
+compiling misc.c...
+compiling stm32f10x_fsmc.c...
+compiling stm32f10x_gpio.c...
+compiling stm32f10x_rcc.c...
+compiling stm32f10x_spi.c...
+compiling stm32f10x_usart.c...
+compiling stm32f10x_adc.c...
+linking...
+Program Size: Code=20110 RO-data=136354 RW-data=152 ZI-data=1848  
+FromELF: creating hex file...
+"..\OBJ\TOUCH.axf" - 0 Error(s), 7 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F1xx_DFP.1.1.0.pack
+                Keil::Device:StdPeriph Drivers:ADC:3.5.0
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+   * Component: ADC Version: 3.5.0
+
+<h2>Collection of Component include folders:</h2>
+  E:\micro project\final project\[26] Touch Screen_new\USER\RTE
+  C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include
+  C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\StdPeriph_Driver\inc
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: Keil::Device:StdPeriph Drivers:ADC:3.5.0
+      Include file:  Device\StdPeriph_Driver\inc\stm32f10x_adc.h
+      Source file:   Device\StdPeriph_Driver\src\stm32f10x_adc.c
+Build Time Elapsed:  00:01:00
+</pre>
+</body>
+</html>
